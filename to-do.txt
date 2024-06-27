@@ -1,1 +1,25 @@
 Need to figure out the exploit which I am gonna use
+
+we can make use of it
+https://socradar.io/top-10-rce-vulnerabilities-exploited-in-2023/
+https://www.exploit-db.com/exploits/52037
+
+will this work ?
+
+dotclear 2.29 RCE
+
+https://www.exploit-db.com/exploits/52038
+
+this one looks good
+mostra cms 3.0.4
+
+Now figure out the way to the root
+
+- first number of ports which are gonna be open ->
+
+- 80 -> has our vulnerable application installed here
+		mostra cms 3.0.4
+- 22 -> standard ssh connection 
+- 21 -> has some information about the password and with a rabbit hole a zip file
+
+OK first test a new within the tryhackme and then deploy our own creative box
